@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ページ全体の設定 */
+
+div{
+	background:linear-gradient(to bottom,#ffffff,#99cdf08e);
+	}
+
+body { 
+	/* divで作ったので書かない */
+}
+
+/*リンクの設定*/
+a{
+	/*文字色*/
+    color:#ff0066;
+
+	/*太字設定*/
+	
+
+	/*線の装飾*/
+	
+
+}
+
+/*マウスホバー時のリンク設定*/
+a:hover{
+	/*文字色*/
+	color:#e9546b;
+}
+
+/*一度クリックしたリンク設定（訪問済み）*/
+a:visited{
+	/*文字色*/
+	color:#0000ff;
+}
+
+/* 見出しの設定(1番大きい) */
+h1 {
+	color: #000000;/*文字色*/
+	padding: 0.5em 0;/*上下の余白*/
+	border-top: solid 3px #99cdf0;/*上線*/
+	border-bottom: solid 3px #99cdf0;/*下線*/
+  }
+
+h3 {
+	color: #000000;/*文字色*/
+	padding: 0.5em 0;/*上下の余白*/
+	border-top: solid 3px #99cdf0;/*上線*/
+	border-bottom: solid 3px #99cdf0;/*下線*/
+  }
+
+  .box2 {
+    padding: 1em 1em;
+    margin: 2em ;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+.box1 {
+    padding: 1em 1em;
+    margin: 2em ;
+    font-weight: bold;
+    color: #000000;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.box3 {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #6091d3;
+	background: #FFF;
+    border-radius: 8px;
+}
+.box3 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #6091d3;
+    font-weight: bold;
+}
+.box3 p {
+    margin: 0; 
+    padding: 0;
+}
+
+ol.favorite{
+	list-style-type: decimal;
+}
+
+ul.links{
+	list-style-type: square;
+}
